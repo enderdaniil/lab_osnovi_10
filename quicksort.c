@@ -1,7 +1,4 @@
 #include <stdio.h>
-const int k = 10;
-int a[k];
-
 
 void quicksort(int* a, int beg, int end)
 {
@@ -46,6 +43,8 @@ void quicksort(int* a, int beg, int end)
 int main()
 {
 	int i;
+	const int k = 10;
+	int a[k];
 
 	printf("Vvedite massiv");
 	for (i = 0; i < k; i++)
